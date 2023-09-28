@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tasty TV - The top Movies and TV show streaming service</title>
+  </head>
+  <body onload="loadSearchData()">
+    <header class="heading">
+      <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+      <a target="_blank" href="https://twitter.com/home" class="fa fa-twitter"></a>
+      <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://uk.linkedin.com/" class="fa fa-linkedin"></a>
+
+       
+      <a href="index.html"><img src="img/logo.png" alt="" class="center"></a>
+
+      <ul class="navigation">
+        <li><a href="index.html"">Home</a></li>
+        <li><a href="annoucements.html">Announcements</a></li>
+        <li><a href="schedule.html">Program Schedule</a></li>
+        <li><a href="random-movies.html">Random Movies</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+      <div class="container">
+        <h2>Search Movie</h2>
+        <input id="searchbar" autocomplete="off" onkeyup="search()" type="text"\n name="search" placeholder="What Movie are you looking for?">
+        <div id="list"></div>
+      </div>
+    </header>
+    
+
+<br />
+<br />
+<section>
+  <div>
+    <h2 class="random-movies">Random Movies</h2>
+    <div id="moviepage"></div>
+  </div>
+</section>
+
+
+<main>
+  <button id="btn">Random Movie!!!</button>
+  <p>Refresh the Page to get a Random Movie after have clicked on the Random Movie!!! button</p>
+  <script src="/data/list.js"></script>
+
+</main>
+
+<br />
+<br />
+<section>
+  <footer class="footer">
+    <p>Questions? Call 0808 196 5391</p>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Ways To Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Buy Gift Cards</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+  </footer>
+</section>
+</body>
+</html>
+
+
+
